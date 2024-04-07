@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-text h1 {
+    font-family: "playfair";
+}
+
+.page-text p,
+.contact-me {
+    font-family: "montserrat-regular";
+}
+
+.main-bg {
+    background-color: #222222;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.page-text {
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+.page-text h1 {
+    font-size: 88px;
+    line-height: 104px;
+    letter-spacing: -2.2px;
+    padding-bottom: 10px;
+}
+
+.page-text p {
+    color: #888888;
+    font-size: 28px;
+    line-height: 48px;
+    letter-spacing: 0.7;
+    width: 1000px;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #D69991;
+    width: 352px;
+    height: 113px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 2.4px;
+    margin-top: 50px;
+}
+
+.arrow-contact {
+    height: 30px;
+}
+
+.slider-images {
+    border: 5px solid yellow;
+    width: 1900px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(6,315px);
+    grid-template-rows: 350px;
+}
+
+.slider {
+    border: 1px solid red;
+    background-color: #BBBBBB;
+    width: 315px;
+    height: 350px;
+}
