@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact-text,
+.button,
+.span-footer {
+    font-family: "montserrat-regular";
+}
+
+.footer-link, 
+h2 {
+    font-family: "playfair";
+}
+
+.after-footer {
+    font-family: "zapfino";
+}
+.contact-text {
+    color: #D6A091;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-contact {
+    margin-top: 50px;
+    width: 450px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 220px) ;
+    grid-template-rows: repeat(4, 50px) ;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.first-name{
+    padding-left: 20%;
+    background-color: #333333;
+}
+
+.last-name{
+    background-color: #333333;
+    padding-left: 10%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.email {
+    background-color: #333333;
+    padding-left: 10%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.description {
+    color: #666666;
+    background-color: #333333;
+    padding-left: 10%;
+    padding-top: 3%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #D69991;
+    gap: 10px;
+}
+
+.accept-button {
+    width: 15px;
+    height: 15px;
+}
