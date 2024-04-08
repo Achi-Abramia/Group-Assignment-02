@@ -106,7 +106,8 @@ h2 {
 
 .follow-ell {
     background-color: #FFFFFF;
-    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     color: black;
     position: absolute;
     font-style: italic;
