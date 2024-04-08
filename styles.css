@@ -2,14 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     color: #FFFFFF;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
-.page-text h1 {
+.page-text h1,
+.follow {
     font-family: "playfair";
 }
 
@@ -76,6 +81,7 @@ a {
 }
 
 .slider-images {
+    position: relative;
     max-width: 1900px;
     display: grid;
     margin: 0 auto;
@@ -87,6 +93,19 @@ a {
     background-color: #BBBBBB;
     width: 315px;
     height: 350px;
+}
+
+.follow {
+    background-color: #FFFFFF;
+    padding: 10px;
+    color: black;
+    position: absolute;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 96px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .slider:nth-child(even) {
