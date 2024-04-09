@@ -76,7 +76,7 @@ h2 {
     max-width: 1000px;
 }
 
-.contact-me {
+.contact-me-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,7 +166,7 @@ footer{
 
 .follow {
     padding-top: 20px;
-    padding-left: 100px;
+    padding-left: 90px;
     width: 400px;
     display: grid;
     grid-template-rows: repeat(4,1fr);
@@ -175,6 +175,7 @@ footer{
 }
 
 .royal{
+    text-decoration: underline;
     color:#888888;
 }
 
