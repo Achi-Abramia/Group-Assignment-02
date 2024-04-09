@@ -13,6 +13,8 @@ a {
     color: inherit;
 }
 
+/* FONTS */
+
 .page-text h1,
 .follow,
 .footer-link, 
@@ -31,6 +33,8 @@ h2 {
 .after-footer {
     font-family: "zapfino";
 }
+
+/* END OF FONTS */
 
 .main-bg {
     background-color: #222222;
