@@ -4,20 +4,25 @@
     box-sizing: border-box;
 }
 
+.page-text h1,
+.follow,
+.footer-link, 
+h2 {
+    font-family: "playfair";
+}
+
+.page-text p,
+.contact-me,
 .contact-text,
 .button,
 .span-footer {
     font-family: "montserrat-regular";
 }
 
-.footer-link, 
-h2 {
-    font-family: "playfair";
-}
-
 .after-footer {
     font-family: "zapfino";
 }
+
 .contact-text {
     color: #D6A091;
     text-align: center;
@@ -87,7 +92,6 @@ h2 {
     height: 15px;
 }
 
-
 footer{
     background-color: #222222;
 }
@@ -125,7 +129,7 @@ footer{
 
 .follow {
     padding-top: 20px;
-    padding-left: 100px;
+    padding-left: 90px;
     width: 400px;
     display: grid;
     grid-template-rows: repeat(4,1fr);
@@ -134,6 +138,7 @@ footer{
 }
 
 .royal{
+    text-decoration: underline;
     color:#888888;
 }
 
