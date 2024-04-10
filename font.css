@@ -1,0 +1,15 @@
+@font-face {
+    font-family:"montserrat-regular";
+    src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "playfair";
+    src: url("./fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "zapfino";
+    src: url("./fonts/Zapfino.ttf") format("truetype");
+}
+
