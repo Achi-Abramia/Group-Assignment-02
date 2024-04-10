@@ -196,6 +196,12 @@ ul {
     transform: translate(-50%, -50%);
 }
 
+.slider-box {
+    background-color: #BBBBBB;
+    width: 315px;
+    height: 350px;
+}
+
 .slider:nth-child(even) {
     margin-top: 50px;
 }
