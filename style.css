@@ -20,13 +20,27 @@ ul {
 .list,
 .txt-header,
 .brilliant-txt,
-.names { 
+.names,
+.main-title,
+.follow,
+.footer-link,
+.subscribe h2,
+.follow h2 { 
     font-family: "playfair";
 }
 
 .my-work,
-.box-date {
+.box-date,
+.page-text p,
+.contact-me,
+.contact-text,
+.button,
+.span-footer  {
     font-family: "montserrat-regular";
+}
+
+.after-footer {
+    font-family: "zapfino";
 }
 
 .header-parent {
@@ -84,7 +98,7 @@ ul {
     padding-left: 850px;
 }
 
- .slider::after { 
+.slider::after { 
     content: "";
     width: 220px;
     height: 4px;
