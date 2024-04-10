@@ -113,6 +113,7 @@ ul {
 .accept-button {
     width: 15px;
     height: 15px;
+}    
   
 .main-bg {
     background-color: #222222;
@@ -336,6 +337,7 @@ h2 {
 .after-footer {
     line-height: 150px;
     color: #666666;
+}
 
 .header-parent {
     color: #888888;
