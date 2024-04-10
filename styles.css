@@ -4,21 +4,23 @@
     box-sizing: border-box;
 }
 
-body {
-    color: #FFFFFF;
-}
-
 a {
     text-decoration: none;
     color: inherit;
 }
 
+
+.main-title,
+.contact-me {
+    color: #FFFFFF;
+}
 /* FONTS */
 
-.page-text h1,
+.main-title,
 .follow,
-.footer-link, 
-h2 {
+.footer-link,
+.subscribe h2,
+.follow h2 {
     font-family: "playfair";
 }
 
