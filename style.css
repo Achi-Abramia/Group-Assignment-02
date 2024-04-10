@@ -202,7 +202,7 @@ ul {
     height: 350px;
 }
 
-.slider:nth-child(even) {
+.slider-box:nth-child(even) {
     margin-top: 50px;
 }
 
