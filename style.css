@@ -1,4 +1,3 @@
-
 * { 
     margin: 0;
     padding: 0;
@@ -13,6 +12,7 @@ a {
 ul {
     list-style: none;
 }
+
 .main-title,
 .contact-me, 
 .main-content {
@@ -20,6 +20,7 @@ ul {
 }
 
 .list,
+.page-text h1,
 .txt-header,
 .brilliant-txt,
 .names,
@@ -45,6 +46,74 @@ ul {
     font-family: "zapfino";
 }
 
+.contact-text {
+    color: #D6A091;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-contact {
+    margin-top: 50px;
+    width: 450px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 220px) ;
+    grid-template-rows: repeat(4, 50px) ;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.first-name {
+    padding-left: 20%;
+    background-color: #333333;
+}
+
+.last-name {
+    background-color: #333333;
+    padding-left: 10%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.email {
+    background-color: #333333;
+    padding-left: 10%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.description {
+    color: #666666;
+    background-color: #333333;
+    padding-left: 10%;
+    padding-top: 3%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #D69991;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.accept-button {
+    width: 15px;
+    height: 15px;
+  
 .main-bg {
     background-color: #222222;
 }
@@ -139,6 +208,7 @@ ul {
 footer {
     background-color: #222222;
 }
+
 .footer {
     display: grid;
     grid-template-columns:repeat(4, 1fr);
@@ -237,6 +307,7 @@ h2 {
     right: 0;
 }
 
+
 .footer-email {
     padding-bottom: 15px;
     padding-left: 15px;
@@ -265,8 +336,7 @@ h2 {
 .after-footer {
     line-height: 150px;
     color: #666666;
-}
-=======
+
 .header-parent {
     color: #888888;
     max-width: 1100px;
