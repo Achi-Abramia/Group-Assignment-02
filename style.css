@@ -203,7 +203,8 @@ ul {
 }
 
 .slider-box:nth-child(even) {
-    transform: translate(0, -10px);
+    transform: translate(0, 40px);
+    box-shadow: 0px 2px 42px 0px rgba(0,0,0,0.75);
 }
 
 footer {
