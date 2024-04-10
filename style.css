@@ -9,7 +9,6 @@ a {
     color: inherit;
 }
 
-
 .main-title,
 .contact-me {
     color: #FFFFFF;
@@ -131,10 +130,10 @@ a {
 
 /* FOOTER */
 
-footer{
+footer {
     background-color: #222222;
 }
-.footer{
+.footer {
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows: repeat(1, 150px);
@@ -151,7 +150,7 @@ footer{
     justify-content: space-between;
 }
 
-.about{
+.about {
     font-size: 30px;
     display: grid;
     grid-template-rows: repeat(4,1fr);
@@ -160,7 +159,7 @@ footer{
     text-decoration: none;
 }
 
-.footer-link{
+.footer-link {
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -175,22 +174,22 @@ footer{
     align-items: center;
 }
 
-.royal{
+.royal {
     text-decoration: underline;
     color:#888888;
 }
 
-h2{ 
+h2 { 
     font-size: 25px;
     color: #FFFFFF;
 }
 
-.footer-logos{
+.footer-logos {
     display: flex;
     gap: 10px;
 }
 
-.footer-icons{
+.footer-icons {
     height: 35px;
     width: 35px;
 }
@@ -199,11 +198,11 @@ h2{
     padding-top: 20px;
 }
 
-.span-footer{
+.span-footer {
     color: #888888;
 }
 
-.email-address{
+.email-address {
     margin-top: 15px;
     padding-right: 10px;
     display: flex;
@@ -220,7 +219,7 @@ h2{
     height: 20px;
 }
 
-.arrow-button{
+.arrow-button {
     padding: 10px;
     vertical-align: middle;
     text-align: center;
@@ -232,7 +231,7 @@ h2{
     right: 0;
 }
 
-.footer-email  {
+.footer-email {
     padding-bottom: 15px;
     padding-left: 15px;
     border: none;
@@ -241,7 +240,7 @@ h2{
     background-color:#EEEEEE26 ;
 }
 
-.footer-h2 ::before{
+.footer-h2::before {
     content: "";
     display: block;
     margin-left: auto;
@@ -257,7 +256,7 @@ h2{
     text-align: center;
 }
 
-.after-footer{
+.after-footer {
     line-height: 150px;
     color: #666666;
 }
